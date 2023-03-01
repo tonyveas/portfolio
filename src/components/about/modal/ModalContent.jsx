@@ -13,7 +13,7 @@ const ModalContent = () => {
                     <PersonalInfo />
                     <div className="edina_tm_button">
                         <a
-                            href="https://drive.google.com/u/1/uc?id=1SoW3VcjLHR_OhSUl-cfBoWe8EqiKbfRf&export=download"
+                            href="https://drive.google.com/u/2/uc?id=1vp5uBdw6hCCanOwpIDn1WydSsp5LXjCQ&export=download"
                             download
                             className="color"
                         >
