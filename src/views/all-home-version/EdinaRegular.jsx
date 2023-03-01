@@ -105,7 +105,7 @@ const EdinaHome = () => {
             <div className="edina_tm_portfolio" id="portfolio">
                 <div className="container">
                     <div className="edina_tm_title">
-                        <h3>Portfolio</h3>
+                        <h3>Un poco de lo que he realizado (:</h3>
                         {/* <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Mauris ipsum sit nibh amet egestas tellus.

@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // logo name
-const logo = "dark";
-const logo2 = "light";
+// const logo = "dark";
+// const logo2 = "light";
+const logo = "MDark1";
+const logo2 = "MLight3";
 
 const HeaderMobile = () => {
     return (

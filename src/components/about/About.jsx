@@ -53,7 +53,7 @@ const About = () => {
                                     className="color"
                                     onClick={toggleModalOne}
                                 >
-                                    See More
+                                    Conocer más
                                 </button>
                             </div>
                         </div>

@@ -5,8 +5,9 @@ import ScrollspyNav from "react-scrollspy-nav";
 // logo name
 // const logo = "dark";
 // const logo2 = "light";
-const logo = "MDark";
-const logo2 = "MLight2";
+const logo2 = "MLight3";
+const logo = "MDark1";
+
 const sidebarContent = [
     {
         icon: "home",
@@ -50,9 +51,9 @@ const sidebarContent = [
 
 // sidebar footer bottom content
 const sidebarFooterContent = {
-    name: "Nelson",
-    email: "support@gmail.com",
-    emailRef: "mailto:ib-themes21@gmail.com",
+    name: "Tony",
+    email: "tveascervantes@hotmail.com",
+    emailRef: "mailto:tveascervantes@hotmail.com",
 };
 
 const HeaderHorizontal = () => {
@@ -76,7 +77,7 @@ const HeaderHorizontal = () => {
     return (
         <div className={`horizontal-menu ${navbar ? "fixed-header" : ""}`}>
             <div className="mob-header">
-                <h1>HeaderHorizontal</h1>
+                {/* <h1>HeaderHorizontal</h1> */}
                 <button className="toggler-menu" onClick={handleClick}>
                     <div className={click ? "active" : ""}>
                         <span></span>
@@ -150,15 +151,6 @@ const HeaderHorizontal = () => {
 
                     <div className="author">
                         <div className="inner">
-                            <div className="image">
-                                <div
-                                    className="main"
-                                    style={{
-                                        backgroundImage:
-                                            "url(img/about/avatar.jpg)",
-                                    }}
-                                ></div>
-                            </div>
                             <div className="short">
                                 <h3>{sidebarFooterContent.name}</h3>
                                 <a href={sidebarFooterContent.emailRef}>

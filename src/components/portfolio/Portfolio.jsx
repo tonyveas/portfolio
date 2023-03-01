@@ -6,7 +6,72 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import Social from "../Social";
 // Modal.setAppElement("#__next");
+
 const portfolioData = [
+    {
+        id: 3,
+        tooltipId: "pj3",
+        portfolioImage: "img/portfolio/8.png",
+        portfolioLink: "https://www.youtube.com/watch?v=ApuGgkFyxgY",
+        portfolioPreview: "img/portfolio/8a.png",
+        title: "Aplicación móvil para la gestión de inventarios de equipos informáticos.",
+        meta: "Mobile Development",
+        // clientName: "Alvaro Morata",
+        category: "Desarrollo móvil",
+        date: "Agosto 27, 2020",
+        projectDescriptions: (
+            <>
+                <p>
+                    Se diseñó y desarrolló una aplicación móvil para el
+                    departamento de sistemas del Hospital León Becerra, ya que
+                    en esta institutión se venía manejando el control y
+                    registros de los equipos informáticos y sus mantenimientos
+                    en simples hojas y a manos, con lo cual requerían una mejora
+                    en este proceso de la empresa.
+                </p>
+
+                <p>
+                    Entre las funciones que poseía la aplicación móvil tenemos:
+                    Gestión de inventario de equipos infomáticos, gestión de
+                    fechas de mantenimientos, notificaciones de mantenimientos,
+                    firma eletrónica, etc.
+                </p>
+            </>
+        ),
+    },
+    {
+        id: 2,
+        tooltipId: "pj2",
+        portfolioImage: "img/portfolio/7.png",
+        portfolioLink:
+            "http://idear.espol.edu.ec/sites/default/files/posters/edicion_x/P%C3%93STER_COMPUTACI%C3%93N_Desarrollo%20de%20una%20soluci%C3%B3n%20multiplataforma%20para%20el%20seguimiento%20del%20estado%20de%20salud%20de%20pacientes%20con%20atenci%C3%B3n%20domiciliaria_Sesme%20Carlos_Veas%20Tony.pdf",
+        portfolioPreview: "img/portfolio/7ap.png",
+        title: "Desarrollo de una solución multiplataforma para el seguimiento del estado de salud de pacientes con atención domiciliaria.",
+        meta: "Web and Mobile Development",
+        // clientName: "Alvaro Morata",
+        category: "Desarrollo web y móvil",
+        date: "Septiembre 11, 2021",
+        projectDescriptions: (
+            <>
+                <p>
+                    Se diseñó y desarrolló una aplicación web y móvil de fácil
+                    uso, que permita gestionar el seguimiento remoto del estado
+                    de salud de pacientes que se encuentran siendo atendidos
+                    desde casa.
+                </p>
+
+                <p>
+                    Entre los resultados más relevantes tenemos: ▪ La solución
+                    propuesta es muy rentable ya que los tiempos se manejan
+                    dentro del estándar frente a otros aplicativo que posee
+                    ciertas funcionalidades en común. • El perfil paciente y
+                    cuidador destaca frente a plataformas donde la información
+                    del estado de salud de los pacientes puede ser visualizada y
+                    gestionada exclusivamente por el médico.
+                </p>
+            </>
+        ),
+    },
     {
         id: 1,
         tooltipId: "pj1",
@@ -48,70 +113,6 @@ const portfolioData = [
                 <p>1) Recolectar imágenes de interiores de viviendas</p>
                 <p>2) Preprocesar imágenes recolectadas</p>
                 <p>3) Analizar patrones de las imágenes</p>
-            </>
-        ),
-    },
-    {
-        id: 2,
-        tooltipId: "pj2",
-        portfolioImage: "img/portfolio/7.png",
-        portfolioLink:
-            "http://idear.espol.edu.ec/sites/default/files/posters/edicion_x/P%C3%93STER_COMPUTACI%C3%93N_Desarrollo%20de%20una%20soluci%C3%B3n%20multiplataforma%20para%20el%20seguimiento%20del%20estado%20de%20salud%20de%20pacientes%20con%20atenci%C3%B3n%20domiciliaria_Sesme%20Carlos_Veas%20Tony.pdf",
-        portfolioPreview: "img/portfolio/7ap.png",
-        title: "Desarrollo de una solución multiplataforma para el seguimiento del estado de salud de pacientes con atención domiciliaria.",
-        meta: "Web and Mobile Development",
-        // clientName: "Alvaro Morata",
-        category: "Desarrollo web y móvil",
-        date: "Septiembre 11, 2021",
-        projectDescriptions: (
-            <>
-                <p>
-                    Se diseñó y desarrolló una aplicación web y móvil de fácil
-                    uso, que permita gestionar el seguimiento remoto del estado
-                    de salud de pacientes que se encuentran siendo atendidos
-                    desde casa.
-                </p>
-
-                <p>
-                    Entre los resultados más relevantes tenemos: ▪ La solución
-                    propuesta es muy rentable ya que los tiempos se manejan
-                    dentro del estándar frente a otros aplicativo que posee
-                    ciertas funcionalidades en común. • El perfil paciente y
-                    cuidador destaca frente a plataformas donde la información
-                    del estado de salud de los pacientes puede ser visualizada y
-                    gestionada exclusivamente por el médico.
-                </p>
-            </>
-        ),
-    },
-    {
-        id: 3,
-        tooltipId: "pj3",
-        portfolioImage: "img/portfolio/8.png",
-        portfolioLink: "https://www.youtube.com/watch?v=ApuGgkFyxgY",
-        portfolioPreview: "img/portfolio/8a.png",
-        title: "Aplicación móvil para la gestión de inventarios de equipos informáticos.",
-        meta: "Mobile Development",
-        // clientName: "Alvaro Morata",
-        category: "Desarrollo móvil",
-        date: "Agosto 27, 2020",
-        projectDescriptions: (
-            <>
-                <p>
-                    Se diseñó y desarrolló una aplicación móvil para el
-                    departamento de sistemas del Hospital León Becerra, ya que
-                    en esta institutión se venía manejando el control y
-                    registros de los equipos informáticos y sus mantenimientos
-                    en simples hojas y a manos, con lo cual requerían una mejora
-                    en este proceso de la empresa.
-                </p>
-
-                <p>
-                    Entre las funciones que poseía la aplicación móvil tenemos:
-                    Gestión de inventario de equipos infomáticos, gestión de
-                    fechas de mantenimientos, notificaciones de mantenimientos,
-                    firma eletrónica, etc.
-                </p>
             </>
         ),
     },
@@ -172,6 +173,28 @@ const portfolioData = [
 ];
 
 const Portfolio = () => {
+    /* TODO  */
+    /* 1.- Ajustar el orden de las cosas hechas en portafolio, para poner en orden las que se vean mejor */
+    /* 2.- Cambiar el logo pestaña */
+    /* 3.- Cambiar título de pestaña */
+    /* 4.- Revisar la ortografía */
+    /* 5.- Analizar si poner básico o aprendiendo */
+    /* 6.- Mirar si puedo ajustar los logos de exp. */
+    /* 7.- Falta agregar sobre lo hecho en el banco (Capturas) */
+    /* 8.- Revisar la consola */
+    /* 9.- Revisar code para eliminar cosas que indiquen que es un template */
+    /* 10.- Subir cambios */
+
+    /* TODO  */
+    /* 1.- Ajustar Foto en CV */
+    /* 2.- Ajustar lo de los certificados, mirar si está bien poner ese formato con links */
+    /* 3.- Actualizar contacto */
+    /* 4.- Subir de nuevo el CV en pdf a drive y actualizar el link de descarga */
+
+    /* TODO  */
+    /* 1.- Actualizar datos de la red */
+    /* 2.- Verificar información que actualizó en perfil */
+
     var settings = {
         dots: false,
         arrow: true,
