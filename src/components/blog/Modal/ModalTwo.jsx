@@ -18,9 +18,7 @@ const ModalTwo = () => {
             {/* End image */}
 
             <div className="news_details">
-                <span>
-                    March 25,2021 <a href="#">Branding</a>
-                </span>
+                <span>{/* March 25,2021 <a href="#">Branding</a> */}</span>
                 <h3 className="title"> Mosby Lavette</h3>
             </div>
             {/* End details */}

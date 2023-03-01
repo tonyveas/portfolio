@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Tilt from "react-parallax-tilt";
+// import Tilt from "react-parallax-tilt";
 import ModalFour from "./modal/ModalFour";
 import ModalOne from "./modal/ModalOne";
 import ModalThree from "./modal/ModalThree";

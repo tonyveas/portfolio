@@ -1,9 +1,9 @@
 import React from "react";
 import {
-    FiFacebook,
-    FiTwitter,
-    FiInstagram,
-    FiDribbble,
+    // FiFacebook,
+    // FiTwitter,
+    // FiInstagram,
+    // FiDribbble,
     FiLinkedin,
 } from "react-icons/fi";
 

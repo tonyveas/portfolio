@@ -17,9 +17,7 @@ const ModalThree = () => {
             </div>
             {/* END IMAGE */}
             <div className="news_details">
-                <span>
-                    April 07,2021 <a href="#">Inspiration</a>
-                </span>
+                <span>{/* April 07,2021 <a href="#">Inspiration</a> */}</span>
                 <h3 className="title">Chul Urina</h3>
             </div>
             {/* End details */}

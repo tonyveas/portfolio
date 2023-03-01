@@ -19,7 +19,7 @@ const ModalFour = () => {
 
             <div className="news_details">
                 <span>
-                    April 07,2021 <a href="#">Travel Landing</a>
+                    {/* April 07,2021 <a href="#">Travel Landing</a> */}
                 </span>
                 <h3 className="title">Dostie Memorie</h3>
             </div>

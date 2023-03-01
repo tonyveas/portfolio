@@ -9,13 +9,13 @@ const heroContentSpanish = {
     description: `Yo soy desarrollador de software.`,
     perfil: "perfil",
 };
-const heroContentEnglish = {
-    shapeImage: "hero-shape",
-    heroImage: "2",
-    name: "Rokers Nelson",
-    description: `I'm a Freelancer Front-end React Developer based In USA, over 6 years of
-  professional experience.`,
-};
+// const heroContentEnglish = {
+//     shapeImage: "hero-shape",
+//     heroImage: "2",
+//     name: "Rokers Nelson",
+//     description: `I'm a Freelancer Front-end React Developer based In USA, over 6 years of
+//   professional experience.`,
+// };
 
 const Hero = () => {
     return (

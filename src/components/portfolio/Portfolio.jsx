@@ -4,7 +4,7 @@ import Modal from "react-modal";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Social from "../Social";
+// import Social from "../Social";
 // Modal.setAppElement("#__next");
 const portfolioData = [
     {
