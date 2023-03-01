@@ -94,7 +94,11 @@ const Hero = () => {
                         data-aos-duration="1200"
                         data-aos-delay="500"
                     >
-                        <a href="img/cv.jpg" download className="color">
+                        <a
+                            href="https://drive.google.com/u/1/uc?id=1SoW3VcjLHR_OhSUl-cfBoWe8EqiKbfRf&export=download"
+                            download
+                            className="color"
+                        >
                             Descargar Hoja de vida
                         </a>
                     </div>
