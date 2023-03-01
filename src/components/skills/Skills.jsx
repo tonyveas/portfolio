@@ -26,7 +26,7 @@ const skillsContent = [
         skillPercent: "95",
     },
     {
-        name: "Java",
+        name: "Java/POO",
         skillPercent: "95",
     },
     {
@@ -46,11 +46,15 @@ const skillsContent = [
         skillPercent: "90",
     },
     {
-        name: "Spring Boot (Básico)",
+        name: "Node.js",
+        skillPercent: "90",
+    },
+    {
+        name: "Spring Boot (Mejorando con curso en línea en Udemy)",
         skillPercent: "90",
     },
 ];
-
+// Revisar
 const Skills = () => {
     return (
         <>

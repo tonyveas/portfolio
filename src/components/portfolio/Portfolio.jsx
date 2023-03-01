@@ -9,6 +9,64 @@ import "slick-carousel/slick/slick-theme.css";
 
 const portfolioData = [
     {
+        id: 5,
+        tooltipId: "pj5",
+        portfolioImage: "img/portfolio/11.png",
+        // portfolioLink: "https://themeforest.net/user/ib-themes",
+        portfolioPreview: "img/portfolio/11a.png",
+        title: "Desarrollador de Software (Clear Minds Consultores S.A) - Módulo Teller COBIS CORP - BANISTMO",
+        meta: "Software developer",
+        clientName: "COBIS CORP - BANISTMO",
+        category: "Desarrollador de software",
+        date: "Enero - Noviembre, 2022",
+        projectDescriptions: (
+            <>
+                <p>
+                    **Nota: Las imágenes han sido censuradas por
+                    confidencialidad
+                </p>
+
+                <p>
+                    • Uso de COBIS DESIGNER: Software Core Bancario (Cobis Corp
+                    - Cobis Topaz), para el desarrollo de transacciones
+                    bancarias.
+                </p>
+                <p>
+                    De manera resumida se trabajó en el desarrollo de
+                    transacciones de pagos de convenios, formulario de lavado,
+                    corrección de bugs en otras transacciones como depósitos en
+                    cuentas, cheques certificas, recaudación de convenios, etc
+                </p>
+                <p>
+                    • Metodología ágil SCRUM: Entregas continuas de software y
+                    ceremonias ágiles (Sprint Planning, Spring daily, Sprint
+                    Retrospective y Sprint Review). • Desarrollo de front-end
+                    sobre la base de un requerimiento funcional (Java, Maven,
+                    Javascript, y typescript).
+                </p>
+                <p>
+                    • Desarrollo de back-end usando lógica de Stored Procedures.
+                </p>
+                <p>• Manejo de base de datos (SQL, MySQL).</p>
+                <p>
+                    • Ejecución de pruebas unitarias de frontend y backend para
+                    los desarrollos realizados (Junit y Mockito).
+                </p>
+                <p>• Análisis y corrección de la calidad de código (Sonar).</p>
+                <p>
+                    • Uso de herramientas de control de versiones (Git -
+                    TortoiseGit), siguiendo el modelo de flujos de ramas y
+                    aprobaciones de Gitflow Workflow (develop, quality, máster,
+                    staging).
+                </p>
+                <p>
+                    • Uso de AWS para la gestión de los logs del sistema.
+                    Detección y corrección de errores.
+                </p>
+            </>
+        ),
+    },
+    {
         id: 3,
         tooltipId: "pj3",
         portfolioImage: "img/portfolio/8.png",
@@ -141,31 +199,26 @@ const portfolioData = [
         ),
     },
     {
-        id: 5,
-        tooltipId: "pj5",
-        portfolioImage: "img/portfolio/5.jpg",
-        portfolioLink: "https://themeforest.net/user/ib-themes",
-        title: "Web Apps Shot",
-        meta: "Web Apps",
-        clientName: "Alvaro Morata",
-        category: "Web Shoot",
-        date: "October 22, 2022",
+        id: 6,
+        tooltipId: "pj6",
+        portfolioImage: "img/portfolio/12.png",
+        // portfolioLink: "https://www.instagram.com/",
+        portfolioPreview: "img/portfolio/12a.png",
+        title: "Proyecto Claro video.",
+        meta: "Database management",
+        // clientName: "Alvaro Morata",
+        category: "Administrador de base de datos",
+        date: "Marzo, 2020",
         projectDescriptions: (
             <>
                 <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    • Desarrollo de procedimientos en Oracle - PL/SQL, siguiendo
+                    los estándares de la empresa, para CROSSELING.
                 </p>
-
                 <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you&lsquo;re trying to figure
-                    out your user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    • Atención de requerimientos de corrección de errores en
+                    códigos fuentes que sean identificados posterior a las
+                    pruebas de software.
                 </p>
             </>
         ),
