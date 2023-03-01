@@ -7,6 +7,7 @@ const heroContentSpanish = {
     heroImage: "2",
     name: "Tony Veas",
     description: `Yo soy desarrollador de software.`,
+    perfil: "perfil",
 };
 const heroContentEnglish = {
     shapeImage: "hero-shape",
@@ -28,7 +29,7 @@ const Hero = () => {
                 >
                     <img
                         src={`img/hero/${heroContentSpanish.shapeImage}`}
-                        srcSet={`img/hero/${heroContentSpanish.heroImage}.jpg`}
+                        srcSet={`img/hero/${heroContentSpanish.perfil}.png`}
                         alt="about author"
                     />
                 </div>

@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 import ScrollspyNav from "react-scrollspy-nav";
 
 // logo name
-const logo = "dark";
-const logo2 = "light";
-
+// const logo = "dark";
+// const logo2 = "light";
+const logo = "MDark";
+const logo2 = "MLight2";
 const sidebarContent = [
     {
         icon: "home",
@@ -32,13 +33,13 @@ const sidebarContent = [
         itemRoute: "#portfolio",
         activeClass: "",
     },
-    {
-        icon: "testimonial",
-        itemName: "Testimonio",
-        itemRoute: "#testimonial",
-        activeClass: "",
-    },
-    { icon: "blog", itemName: "Blog", itemRoute: "#blog", activeClass: "" },
+    // {
+    //     icon: "testimonial",
+    //     itemName: "Testimonio",
+    //     itemRoute: "#testimonial",
+    //     activeClass: "",
+    // },
+    // { icon: "blog", itemName: "Blog", itemRoute: "#blog", activeClass: "" },
     {
         icon: "contact",
         itemName: "Contacto",
@@ -115,8 +116,8 @@ const HeaderHorizontal = () => {
                                 "about",
                                 "service",
                                 "portfolio",
-                                "testimonial",
-                                "blog",
+                                // "testimonial",
+                                // "blog",
                                 "contact",
                             ]}
                             activeNavClass="active"

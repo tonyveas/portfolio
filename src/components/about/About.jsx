@@ -62,14 +62,17 @@ const About = () => {
 
                     <div className="rightpart">
                         <div className="image">
-                            <img src="img/thumbs/26-35.jpg" alt="thumb" />
+                            <img
+                                src="img/thumbs/perfil-completo.png"
+                                alt="thumb"
+                            />
 
                             <div
                                 className="main"
                                 style={{
                                     backgroundImage: `url(${
                                         process.env.PUBLIC_URL +
-                                        "img/about/2.jpg"
+                                        "img/thumbs/perfil-completo.png"
                                     })`,
                                 }}
                                 data-aos="fade-left"

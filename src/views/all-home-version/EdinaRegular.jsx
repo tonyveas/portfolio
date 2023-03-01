@@ -117,7 +117,7 @@ const EdinaHome = () => {
             </div>
             {/* End Portfolio */}
 
-            <div className="edina_tm_testimonials" id="testimonial">
+            {/* <div className="edina_tm_testimonials" id="testimonial">
                 <div className="container">
                     <div className="edina_tm_title">
                         <h3>Testimonials</h3>
@@ -126,17 +126,15 @@ const EdinaHome = () => {
                             elit. Mauris ipsum sit nibh amet egestas tellus.
                         </p>
                     </div>
-                    {/* End edian_tm_title */}
                     <div className="list ">
                         <ul>
                             <Testimonial />
                         </ul>
                     </div>
                 </div>
-            </div>
-            {/* End Testimonial */}
+            </div> */}
 
-            <div className="edina_tm_news" id="blog">
+            {/* <div className="edina_tm_news" id="blog">
                 <div className="container">
                     <div className="edina_tm_title">
                         <h3>Blog</h3>
@@ -145,26 +143,20 @@ const EdinaHome = () => {
                             elit. Mauris ipsum sit nibh amet egestas tellus.
                         </p>
                     </div>
-                    {/* End edian_tm_title */}
                     <Blog />
                 </div>
-            </div>
-            {/* End Blog */}
+            </div> */}
 
             <div className="edina_tm_contact" id="contact">
                 <div className="container">
                     <div className="edina_tm_title">
-                        <h3>Contact</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Mauris ipsum sit nibh amet egestas tellus.
-                        </p>
+                        <h3>Contacto</h3>
+                        <p>Me encantaría formar equipo con ustedes</p>
                     </div>
                     <div className="extra_info">
                         <Address />
                     </div>
-                    {/* End Address Info */}
-                    <div className="mainpart">
+                    {/* <div className="mainpart">
                         <div
                             className="left"
                             data-aos="fade-right"
@@ -173,16 +165,13 @@ const EdinaHome = () => {
                         >
                             <div className="title">
                                 <p>
-                                    I'm always open to discussing product
+                                    Estaré pendiente :)
                                     <br />
-                                    <span> design work or partnerships.</span>
                                 </p>
                             </div>
-                            {/* End title */}
                             <div className="fields">
                                 <Contact />
                             </div>
-                            {/* End Contact Form */}
                         </div>
                         <div
                             className="right"
@@ -192,11 +181,9 @@ const EdinaHome = () => {
                         >
                             <Map />
                         </div>
-                        {/* End Map */}
-                    </div>
+                    </div> */}
                 </div>
             </div>
-            {/* /CONTACT */}
         </div>
     );
 };
