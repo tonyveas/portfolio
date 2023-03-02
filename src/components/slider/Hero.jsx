@@ -95,7 +95,7 @@ const Hero = () => {
                         data-aos-delay="500"
                     >
                         <a
-                            href="https://drive.google.com/u/2/uc?id=1vp5uBdw6hCCanOwpIDn1WydSsp5LXjCQ&export=download"
+                            href="https://drive.google.com/u/2/uc?id=1m-3N-g7j6D8aeU8M6N6EeHIvvVvnngx3&export=download"
                             download
                             className="color"
                         >
