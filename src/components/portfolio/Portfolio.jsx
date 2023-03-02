@@ -226,28 +226,6 @@ const portfolioData = [
 ];
 
 const Portfolio = () => {
-    /* TODO  */
-    /* 1.- Ajustar el orden de las cosas hechas en portafolio, para poner en orden las que se vean mejor */
-    /* 2.- Cambiar el logo pestaña */
-    /* 3.- Cambiar título de pestaña */
-    /* 4.- Revisar la ortografía */
-    /* 5.- Analizar si poner básico o aprendiendo */
-    /* 6.- Mirar si puedo ajustar los logos de exp. */
-    /* 7.- Falta agregar sobre lo hecho en el banco (Capturas) */
-    /* 8.- Revisar la consola */
-    /* 9.- Revisar code para eliminar cosas que indiquen que es un template */
-    /* 10.- Subir cambios */
-
-    /* TODO  */
-    /* 1.- Ajustar Foto en CV */
-    /* 2.- Ajustar lo de los certificados, mirar si está bien poner ese formato con links */
-    /* 3.- Actualizar contacto */
-    /* 4.- Subir de nuevo el CV en pdf a drive y actualizar el link de descarga */
-
-    /* TODO  */
-    /* 1.- Actualizar datos de la red */
-    /* 2.- Verificar información que actualizó en perfil */
-
     var settings = {
         dots: false,
         arrow: true,
